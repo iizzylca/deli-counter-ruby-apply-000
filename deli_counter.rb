@@ -18,12 +18,11 @@ def line(katz_deli)
     end
   end
 
+number = 1
 def take_a_number(katz_deli)
-  number = 1
   katz_deli.push(number)
-	value = katz_deli.index(number) + 1
-	puts "Welcome!. You are number is #{value}."
-  number += 1 
+	puts "Welcome!. You're number is #{number}."
+  number += 1
 end
 
 def now_serving(katz_deli)

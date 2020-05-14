@@ -4,7 +4,7 @@
 katz_deli = []
 
 #the #line method helps to organize our array and to put out a meesage and an updated place in line and updated name list.
-#it currently displays that the line is empty, however we set a
+#it currently displays that the line is empty
 def line(katz_deli)
   if katz_deli.length == 0
       puts "The line is currently empty."
